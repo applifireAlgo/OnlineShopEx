@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class shop.app.server.service.RolesTestCase</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class shop.app.server.service.RolesTestCase</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/shop.app.server.service.html">shop.app.server.service</a> &gt; RolesTestCase</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">18.904s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1Save</td>
+<td>18.626s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Update</td>
+<td>0.077s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3FindById</td>
+<td>0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4Delete</td>
+<td>0.190s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[EL Config]: metadata: 2015-12-04 13:08:52.125--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.ArtEntity] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.153--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.AuditPropertiesEntity] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.156--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtQuery] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.158--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.PasswordAlgo] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.162--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtMenu] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.164--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtTableEntityRelation] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.168--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field reffKeyDetails] is being defaulted to: class com.athena.shared.entity.query.ArtTableFieldDetails.
+[EL Config]: metadata: 2015-12-04 13:08:52.169--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field owingKeyDetails] is being defaulted to: class com.athena.shared.entity.query.ArtTableFieldDetails.
+[EL Config]: metadata: 2015-12-04 13:08:52.169--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field reffTableDetails] is being defaulted to: class com.athena.shared.entity.query.ArtTableDetails.
+[EL Config]: metadata: 2015-12-04 13:08:52.17--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the many to one mapping element [field owningTableDetails] is being defaulted to: class com.athena.shared.entity.query.ArtTableDetails.
+[EL Config]: metadata: 2015-12-04 13:08:52.17--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authorization.Roles] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.174--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to many mapping element [field roleMenuBridge] is being defaulted to: class shop.app.shared.authorization.RoleMenuBridge.
+[EL Config]: metadata: 2015-12-04 13:08:52.174--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.cloud.shared.entity.CloudDriveTags] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.175--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to many mapping element [field awsCloudDriveTagFiles] is being defaulted to: class com.athena.cloud.shared.entity.CloudDriveTagFiles.
+[EL Config]: metadata: 2015-12-04 13:08:52.175--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtServiceOperation] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.176--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the many to one mapping element [field artservice] is being defaulted to: class com.athena.shared.entity.report.ArtService.
+[EL Config]: metadata: 2015-12-04 13:08:52.177--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.contacts.Gender] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.177--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtChartTemplate] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.178--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.contacts.CommunicationData] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.178--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.retail.OrderMain] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.179--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to many mapping element [field orderDetail] is being defaulted to: class shop.app.shared.retail.OrderDetail.
+[EL Config]: metadata: 2015-12-04 13:08:52.179--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.cloud.shared.entity.CloudDriveFiles] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.18--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the many to many mapping element [field tags] is being defaulted to: class com.athena.cloud.shared.entity.CloudDriveTags.
+[EL Config]: metadata: 2015-12-04 13:08:52.181--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field contentType] is being defaulted to: class com.athena.cloud.shared.entity.CloudDriveContentType.
+[EL Config]: metadata: 2015-12-04 13:08:52.181--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtTableDetails] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.182--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to many mapping element [field entityRelations] is being defaulted to: class com.athena.shared.entity.query.ArtTableEntityRelation.
+[EL Config]: metadata: 2015-12-04 13:08:52.182--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to many mapping element [field artTableFieldDetail] is being defaulted to: class com.athena.shared.entity.query.ArtTableFieldDetails.
+[EL Config]: metadata: 2015-12-04 13:08:52.183--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.retail.Item] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.184--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.State] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.185--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtChartCategory] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.185--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field chart_json_id] is being defaulted to: class com.athena.shared.entity.report.ArtChartJson.
+[EL Config]: metadata: 2015-12-04 13:08:52.185--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.UserAccessLevel] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.186--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtChartJson] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.187--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field data_field_id] is being defaulted to: class com.athena.shared.entity.report.ArtChartDataFieldJson.
+[EL Config]: metadata: 2015-12-04 13:08:52.187--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.contacts.CommunicationGroup] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.188--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.AddressType] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.189--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authorization.AppMenus] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.19--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.City] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.191--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.spartan.healthmeter.entity.ZenHealthGauge] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.192--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.cloud.shared.entity.CloudDriveContentType] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.193--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtChartProperties] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.194--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.LoginSession] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.195--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.UserAccessDomain] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.195--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtUserLastStatus] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.196--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtMasterForm] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.198--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.deo.model.AwsExternalIntegration] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.199--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.District] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.2--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtUserMenu] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.201--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.cloud.shared.entity.CloudDriveTagShared] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.201--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field tags] is being defaulted to: class com.athena.cloud.shared.entity.CloudDriveTags.
+[EL Config]: metadata: 2015-12-04 13:08:52.202--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.spartan.healthmeter.entity.HealthSchedulerConfiguration] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.202--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.cloud.shared.entity.CloudDriveFileVersion] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.203--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field file] is being defaulted to: class com.athena.cloud.shared.entity.CloudDriveFiles.
+[EL Config]: metadata: 2015-12-04 13:08:52.203--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.contacts.ContactType] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.204--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.spartan.healthmeter.entity.ZenSchedulerHealth] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.206--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtChartType] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.206--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field chart_id] is being defaulted to: class com.athena.shared.entity.report.ArtChartCategory.
+[EL Config]: metadata: 2015-12-04 13:08:52.207--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.contacts.CoreContacts] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.208--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to many mapping element [field address] is being defaulted to: class shop.app.shared.location.Address.
+[EL Config]: metadata: 2015-12-04 13:08:52.208--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to many mapping element [field communicationData] is being defaulted to: class shop.app.shared.contacts.CommunicationData.
+[EL Config]: metadata: 2015-12-04 13:08:52.208--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.User] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.209--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field userData] is being defaulted to: class shop.app.shared.authentication.UserData.
+[EL Config]: metadata: 2015-12-04 13:08:52.209--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to many mapping element [field passRecovery] is being defaulted to: class shop.app.shared.authentication.PassRecovery.
+[EL Config]: metadata: 2015-12-04 13:08:52.21--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtDatabaseFunction] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.21--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.Address] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.211--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.customers.AppCustomer] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.211--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtChartPropLanguage] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.211--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field property_id] is being defaulted to: class com.athena.shared.entity.report.ArtChartProperties.
+[EL Config]: metadata: 2015-12-04 13:08:52.212--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field lang_id] is being defaulted to: class com.athena.shared.entity.report.ArtLangMaster.
+[EL Config]: metadata: 2015-12-04 13:08:52.212--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.spartan.shield.server.entity.AppSessionConfig] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.212--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.Timezone] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.213--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.Currency] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.213--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.SessionData] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.214--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authorization.RoleMenuBridge] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.214--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field roles] is being defaulted to: class shop.app.shared.authorization.Roles.
+[EL Config]: metadata: 2015-12-04 13:08:52.214--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtLangMaster] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.215--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.contacts.Title] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.215--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.Login] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.215--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field coreContacts] is being defaulted to: class shop.app.shared.contacts.CoreContacts.
+[EL Config]: metadata: 2015-12-04 13:08:52.215--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field user] is being defaulted to: class shop.app.shared.authentication.User.
+[EL Config]: metadata: 2015-12-04 13:08:52.216--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtDatabaseOperators] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.216--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.Village] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.216--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.contacts.CommunicationType] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.217--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.Taluka] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.217--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.retail.Card] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.218--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.customers.AppCustomerType] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.218--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.cloud.shared.entity.CloudDriveFileShared] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.218--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field file] is being defaulted to: class com.athena.cloud.shared.entity.CloudDriveFiles.
+[EL Config]: metadata: 2015-12-04 13:08:52.219--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.Language] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.219--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.PasswordPolicy] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.219--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.spartan.healthmeter.entity.ZenHealthStatus] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.22--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.cloud.shared.entity.CloudDriveDefaultTags] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.22--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtTableFieldDetails] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.22--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the many to one mapping element [field awsTableDetail] is being defaulted to: class com.athena.shared.entity.query.ArtTableDetails.
+[EL Config]: metadata: 2015-12-04 13:08:52.221--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.retail.OrderDetail] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.221--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field orderMain] is being defaulted to: class shop.app.shared.retail.OrderMain.
+[EL Config]: metadata: 2015-12-04 13:08:52.222--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.customers.AppCustomerCategory] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.222--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.AddressExtended] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.222--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.defaultdomain.OrderTransaction] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.223--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.spartan.healthmeter.entity.ZenRequestDetails] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.223--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authorization.UserRoleBridge] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.224--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.ruleengine.shared.ArtRules] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.224--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtReportBuilderDetails] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.225--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.cloud.shared.entity.CloudDriveTagFiles] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.225--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field tags] is being defaulted to: class com.athena.cloud.shared.entity.CloudDriveTags.
+[EL Config]: metadata: 2015-12-04 13:08:52.225--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field file] is being defaulted to: class com.athena.cloud.shared.entity.CloudDriveFiles.
+[EL Config]: metadata: 2015-12-04 13:08:52.225--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.UserData] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.226--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field user] is being defaulted to: class shop.app.shared.authentication.User.
+[EL Config]: metadata: 2015-12-04 13:08:52.226--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.spartan.healthmeter.entity.ZenHealthCounter] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.226--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.PassRecovery] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.227--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to one mapping element [field user] is being defaulted to: class shop.app.shared.authentication.User.
+[EL Config]: metadata: 2015-12-04 13:08:52.227--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.Region] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.227--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.spartan.healthmeter.entity.ZenHealth] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.229--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtChartDataFieldJson] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.229--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtReportUI] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.23--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.report.ArtService] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.23--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The target entity (reference) class for the one to many mapping element [field artServiceOperations] is being defaulted to: class com.athena.shared.entity.report.ArtServiceOperation.
+[EL Config]: metadata: 2015-12-04 13:08:52.23--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.server.bean.EntityBean] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.231--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.authentication.Question] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.231--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.retail.Cart] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.231--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.location.Country] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.232--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class com.athena.shared.entity.query.ArtDatabaseAggregate] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.232--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.EntityAudit] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.233--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The access type for the persistent class [class shop.app.shared.SystemInfo] is set to [FIELD].
+[EL Config]: metadata: 2015-12-04 13:08:52.239--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtQuery] is being defaulted to: ArtQuery.
+[EL Config]: metadata: 2015-12-04 13:08:52.247--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.PasswordAlgo] is being defaulted to: PasswordAlgo.
+[EL Config]: metadata: 2015-12-04 13:08:52.249--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtMenu] is being defaulted to: ArtMenu.
+[EL Config]: metadata: 2015-12-04 13:08:52.25--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtTableEntityRelation] is being defaulted to: ArtTableEntityRelation.
+[EL Config]: metadata: 2015-12-04 13:08:52.251--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authorization.Roles] is being defaulted to: Roles.
+[EL Config]: metadata: 2015-12-04 13:08:52.251--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.cloud.shared.entity.CloudDriveTags] is being defaulted to: CloudDriveTags.
+[EL Config]: metadata: 2015-12-04 13:08:52.253--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtServiceOperation] is being defaulted to: ArtServiceOperation.
+[EL Config]: metadata: 2015-12-04 13:08:52.254--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.contacts.Gender] is being defaulted to: Gender.
+[EL Config]: metadata: 2015-12-04 13:08:52.254--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtChartTemplate] is being defaulted to: ArtChartTemplate.
+[EL Config]: metadata: 2015-12-04 13:08:52.255--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.contacts.CommunicationData] is being defaulted to: CommunicationData.
+[EL Config]: metadata: 2015-12-04 13:08:52.255--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.retail.OrderMain] is being defaulted to: OrderMain.
+[EL Config]: metadata: 2015-12-04 13:08:52.256--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.cloud.shared.entity.CloudDriveFiles] is being defaulted to: CloudDriveFiles.
+[EL Config]: metadata: 2015-12-04 13:08:52.256--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtTableDetails] is being defaulted to: ArtTableDetails.
+[EL Config]: metadata: 2015-12-04 13:08:52.257--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.retail.Item] is being defaulted to: Item.
+[EL Config]: metadata: 2015-12-04 13:08:52.258--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.State] is being defaulted to: State.
+[EL Config]: metadata: 2015-12-04 13:08:52.258--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtChartCategory] is being defaulted to: ArtChartCategory.
+[EL Config]: metadata: 2015-12-04 13:08:52.259--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.UserAccessLevel] is being defaulted to: UserAccessLevel.
+[EL Config]: metadata: 2015-12-04 13:08:52.259--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtChartJson] is being defaulted to: ArtChartJson.
+[EL Config]: metadata: 2015-12-04 13:08:52.26--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.contacts.CommunicationGroup] is being defaulted to: CommunicationGroup.
+[EL Config]: metadata: 2015-12-04 13:08:52.26--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.AddressType] is being defaulted to: AddressType.
+[EL Config]: metadata: 2015-12-04 13:08:52.26--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authorization.AppMenus] is being defaulted to: AppMenus.
+[EL Config]: metadata: 2015-12-04 13:08:52.261--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.City] is being defaulted to: City.
+[EL Config]: metadata: 2015-12-04 13:08:52.262--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.spartan.healthmeter.entity.ZenHealthGauge] is being defaulted to: ZenHealthGauge.
+[EL Config]: metadata: 2015-12-04 13:08:52.263--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.cloud.shared.entity.CloudDriveContentType] is being defaulted to: CloudDriveContentType.
+[EL Config]: metadata: 2015-12-04 13:08:52.263--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtChartProperties] is being defaulted to: ArtChartProperties.
+[EL Config]: metadata: 2015-12-04 13:08:52.264--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.LoginSession] is being defaulted to: LoginSession.
+[EL Config]: metadata: 2015-12-04 13:08:52.265--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.UserAccessDomain] is being defaulted to: UserAccessDomain.
+[EL Config]: metadata: 2015-12-04 13:08:52.265--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtUserLastStatus] is being defaulted to: ArtUserLastStatus.
+[EL Config]: metadata: 2015-12-04 13:08:52.266--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtMasterForm] is being defaulted to: ArtMasterForm.
+[EL Config]: metadata: 2015-12-04 13:08:52.267--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.deo.model.AwsExternalIntegration] is being defaulted to: AwsExternalIntegration.
+[EL Config]: metadata: 2015-12-04 13:08:52.268--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.District] is being defaulted to: District.
+[EL Config]: metadata: 2015-12-04 13:08:52.269--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtUserMenu] is being defaulted to: ArtUserMenu.
+[EL Warning]: metadata: 2015-12-04 13:08:52.269--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--You have specified multiple ids for the entity class [com.athena.shared.entity.query.ArtUserMenu] without specifying an @IdClass. By doing this you may lose the ability to find by identity, distributed cache support etc. Note: You may however use entity manager find operations by passing a list of primary key fields. Else, you will have to use JPQL queries to read your entities. For other id options see @PrimaryKey.
+[EL Config]: metadata: 2015-12-04 13:08:52.269--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.cloud.shared.entity.CloudDriveTagShared] is being defaulted to: CloudDriveTagShared.
+[EL Config]: metadata: 2015-12-04 13:08:52.27--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2015-12-04 13:08:52.27--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.spartan.healthmeter.entity.HealthSchedulerConfiguration] is being defaulted to: HealthSchedulerConfiguration.
+[EL Config]: metadata: 2015-12-04 13:08:52.27--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.cloud.shared.entity.CloudDriveFileVersion] is being defaulted to: CloudDriveFileVersion.
+[EL Config]: metadata: 2015-12-04 13:08:52.271--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.contacts.ContactType] is being defaulted to: ContactType.
+[EL Config]: metadata: 2015-12-04 13:08:52.271--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.spartan.healthmeter.entity.ZenSchedulerHealth] is being defaulted to: ZenSchedulerHealth.
+[EL Config]: metadata: 2015-12-04 13:08:52.272--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtChartType] is being defaulted to: ArtChartType.
+[EL Config]: metadata: 2015-12-04 13:08:52.273--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.contacts.CoreContacts] is being defaulted to: CoreContacts.
+[EL Config]: metadata: 2015-12-04 13:08:52.274--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.User] is being defaulted to: User.
+[EL Config]: metadata: 2015-12-04 13:08:52.274--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtDatabaseFunction] is being defaulted to: ArtDatabaseFunction.
+[EL Config]: metadata: 2015-12-04 13:08:52.275--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.Address] is being defaulted to: Address.
+[EL Config]: metadata: 2015-12-04 13:08:52.276--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.customers.AppCustomer] is being defaulted to: AppCustomer.
+[EL Config]: metadata: 2015-12-04 13:08:52.277--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtChartPropLanguage] is being defaulted to: ArtChartPropLanguage.
+[EL Config]: metadata: 2015-12-04 13:08:52.277--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.spartan.shield.server.entity.AppSessionConfig] is being defaulted to: AppSessionConfig.
+[EL Config]: metadata: 2015-12-04 13:08:52.278--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.Timezone] is being defaulted to: Timezone.
+[EL Config]: metadata: 2015-12-04 13:08:52.279--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.Currency] is being defaulted to: Currency.
+[EL Config]: metadata: 2015-12-04 13:08:52.279--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.SessionData] is being defaulted to: SessionData.
+[EL Config]: metadata: 2015-12-04 13:08:52.28--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authorization.RoleMenuBridge] is being defaulted to: RoleMenuBridge.
+[EL Config]: metadata: 2015-12-04 13:08:52.281--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtLangMaster] is being defaulted to: ArtLangMaster.
+[EL Config]: metadata: 2015-12-04 13:08:52.281--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.contacts.Title] is being defaulted to: Title.
+[EL Config]: metadata: 2015-12-04 13:08:52.282--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.Login] is being defaulted to: Login.
+[EL Config]: metadata: 2015-12-04 13:08:52.283--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtDatabaseOperators] is being defaulted to: ArtDatabaseOperators.
+[EL Config]: metadata: 2015-12-04 13:08:52.283--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.Village] is being defaulted to: Village.
+[EL Config]: metadata: 2015-12-04 13:08:52.284--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.contacts.CommunicationType] is being defaulted to: CommunicationType.
+[EL Config]: metadata: 2015-12-04 13:08:52.284--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.Taluka] is being defaulted to: Taluka.
+[EL Config]: metadata: 2015-12-04 13:08:52.285--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.retail.Card] is being defaulted to: Card.
+[EL Config]: metadata: 2015-12-04 13:08:52.285--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.customers.AppCustomerType] is being defaulted to: AppCustomerType.
+[EL Config]: metadata: 2015-12-04 13:08:52.285--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.cloud.shared.entity.CloudDriveFileShared] is being defaulted to: CloudDriveFileShared.
+[EL Config]: metadata: 2015-12-04 13:08:52.286--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2015-12-04 13:08:52.286--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.Language] is being defaulted to: Language.
+[EL Config]: metadata: 2015-12-04 13:08:52.286--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.PasswordPolicy] is being defaulted to: PasswordPolicy.
+[EL Config]: metadata: 2015-12-04 13:08:52.287--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.spartan.healthmeter.entity.ZenHealthStatus] is being defaulted to: ZenHealthStatus.
+[EL Config]: metadata: 2015-12-04 13:08:52.287--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.cloud.shared.entity.CloudDriveDefaultTags] is being defaulted to: CloudDriveDefaultTags.
+[EL Config]: metadata: 2015-12-04 13:08:52.288--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtTableFieldDetails] is being defaulted to: ArtTableFieldDetails.
+[EL Config]: metadata: 2015-12-04 13:08:52.289--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.retail.OrderDetail] is being defaulted to: OrderDetail.
+[EL Config]: metadata: 2015-12-04 13:08:52.289--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.customers.AppCustomerCategory] is being defaulted to: AppCustomerCategory.
+[EL Config]: metadata: 2015-12-04 13:08:52.29--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.AddressExtended] is being defaulted to: AddressExtended.
+[EL Config]: metadata: 2015-12-04 13:08:52.29--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.defaultdomain.OrderTransaction] is being defaulted to: OrderTransaction.
+[EL Config]: metadata: 2015-12-04 13:08:52.29--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.spartan.healthmeter.entity.ZenRequestDetails] is being defaulted to: ZenRequestDetails.
+[EL Config]: metadata: 2015-12-04 13:08:52.291--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authorization.UserRoleBridge] is being defaulted to: UserRoleBridge.
+[EL Config]: metadata: 2015-12-04 13:08:52.291--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.ruleengine.shared.ArtRules] is being defaulted to: ArtRules.
+[EL Config]: metadata: 2015-12-04 13:08:52.292--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtReportBuilderDetails] is being defaulted to: ArtReportBuilderDetails.
+[EL Config]: metadata: 2015-12-04 13:08:52.293--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.cloud.shared.entity.CloudDriveTagFiles] is being defaulted to: CloudDriveTagFiles.
+[EL Config]: metadata: 2015-12-04 13:08:52.293--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2015-12-04 13:08:52.293--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.UserData] is being defaulted to: UserData.
+[EL Config]: metadata: 2015-12-04 13:08:52.294--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.spartan.healthmeter.entity.ZenHealthCounter] is being defaulted to: ZenHealthCounter.
+[EL Config]: metadata: 2015-12-04 13:08:52.294--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.PassRecovery] is being defaulted to: PassRecovery.
+[EL Config]: metadata: 2015-12-04 13:08:52.294--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.Region] is being defaulted to: Region.
+[EL Config]: metadata: 2015-12-04 13:08:52.295--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.spartan.healthmeter.entity.ZenHealth] is being defaulted to: ZenHealth.
+[EL Config]: metadata: 2015-12-04 13:08:52.296--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtChartDataFieldJson] is being defaulted to: ArtChartDataFieldJson.
+[EL Config]: metadata: 2015-12-04 13:08:52.297--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtReportUI] is being defaulted to: ArtReportUI.
+[EL Config]: metadata: 2015-12-04 13:08:52.297--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.report.ArtService] is being defaulted to: ArtService.
+[EL Config]: metadata: 2015-12-04 13:08:52.298--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.server.bean.EntityBean] is being defaulted to: EntityBean.
+[EL Config]: metadata: 2015-12-04 13:08:52.298--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The table name for entity [class com.athena.server.bean.EntityBean] is being defaulted to: ENTITYBEAN.
+[EL Config]: metadata: 2015-12-04 13:08:52.298--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2015-12-04 13:08:52.298--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The column name for element [name] is being defaulted to: NAME.
+[EL Config]: metadata: 2015-12-04 13:08:52.299--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The column name for element [fields] is being defaulted to: FIELDS.
+[EL Config]: metadata: 2015-12-04 13:08:52.3--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.authentication.Question] is being defaulted to: Question.
+[EL Config]: metadata: 2015-12-04 13:08:52.301--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.retail.Cart] is being defaulted to: Cart.
+[EL Config]: metadata: 2015-12-04 13:08:52.301--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class shop.app.shared.location.Country] is being defaulted to: Country.
+[EL Config]: metadata: 2015-12-04 13:08:52.302--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The alias name for the entity class [class com.athena.shared.entity.query.ArtDatabaseAggregate] is being defaulted to: ArtDatabaseAggregate.
+[EL Config]: metadata: 2015-12-04 13:08:52.313--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The primary key column name for the mapping element [field artservice] is being defaulted to: service_id.
+[EL Config]: metadata: 2015-12-04 13:08:52.324--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The primary key column name for the mapping element [field contentType] is being defaulted to: file_mime_type.
+[EL Config]: metadata: 2015-12-04 13:08:52.324--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The primary key column name for the mapping element [field file] is being defaulted to: file_id.
+[EL Config]: metadata: 2015-12-04 13:08:52.326--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The primary key column name for the mapping element [field file] is being defaulted to: file_id.
+[EL Config]: metadata: 2015-12-04 13:08:52.327--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--The primary key column name for the mapping element [field file] is being defaulted to: file_id.
+[EL Info]: 2015-12-04 13:08:52.952--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.5.1.v20130918-f2b9fc5
+[EL Fine]: connection: 2015-12-04 13:08:53.129--Thread(Thread[Test worker,5,main])--Detected database platform: org.eclipse.persistence.platform.database.MySQLPlatform
+[EL Config]: connection: 2015-12-04 13:08:53.175--ServerSession(1023441588)--Connection(4833828)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.184--ServerSession(1023441588)--Connection(1587703731)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.184--ServerSession(1023441588)--Connection(2052292942)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.191--ServerSession(1023441588)--Connection(149965733)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.191--ServerSession(1023441588)--Connection(1475756600)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.198--ServerSession(1023441588)--Connection(1878566398)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.198--ServerSession(1023441588)--Connection(760872992)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.204--ServerSession(1023441588)--Connection(1925450529)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.205--ServerSession(1023441588)--Connection(615964260)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.21--ServerSession(1023441588)--Connection(458573546)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.21--ServerSession(1023441588)--Connection(2074262186)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.216--ServerSession(1023441588)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.217--ServerSession(1023441588)--Connection(1308999391)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.222--ServerSession(1023441588)--Connection(2092918373)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.222--ServerSession(1023441588)--Connection(2044440798)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.227--ServerSession(1023441588)--Connection(6851968)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.228--ServerSession(1023441588)--Connection(1344392885)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.233--ServerSession(1023441588)--Connection(725905549)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.234--ServerSession(1023441588)--Connection(439963436)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.239--ServerSession(1023441588)--Connection(773278192)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.24--ServerSession(1023441588)--Connection(2063024947)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.245--ServerSession(1023441588)--Connection(1558164363)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.246--ServerSession(1023441588)--Connection(1652857423)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.251--ServerSession(1023441588)--Connection(188779289)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.251--ServerSession(1023441588)--Connection(980163604)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.256--ServerSession(1023441588)--Connection(1106030135)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.256--ServerSession(1023441588)--Connection(430030513)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.261--ServerSession(1023441588)--Connection(888946394)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.261--ServerSession(1023441588)--Connection(478311779)--Thread(Thread[Test worker,5,main])--connecting(DatabaseLogin(
+	platform=&gt;MySQLPlatform
+	user name=&gt; &quot;shopdb&quot;
+	datasource URL=&gt; &quot;jdbc:mysql://localhost:3306/shop&quot;
+))
+[EL Config]: connection: 2015-12-04 13:08:53.267--ServerSession(1023441588)--Connection(738768633)--Thread(Thread[Test worker,5,main])--Connected: jdbc:mysql://localhost:3306/shop
+	User: shopdb@172.17.0.4
+	Database: MySQL  Version: 5.7.7-rc
+	Driver: MySQL Connector Java  Version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[EL Config]: connection: 2015-12-04 13:08:53.268--ServerSession(1023441588)--Connection(738768633)--Thread(Thread[Test worker,5,main])--disconnect
+[EL Warning]: metadata: 2015-12-04 13:08:53.285--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [userData] for the entity class [class shop.app.shared.authentication.User] since weaving was not enabled or did not occur.
+[EL Warning]: metadata: 2015-12-04 13:08:53.287--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [coreContacts] for the entity class [class shop.app.shared.authentication.Login] since weaving was not enabled or did not occur.
+[EL Warning]: metadata: 2015-12-04 13:08:53.287--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [user] for the entity class [class shop.app.shared.authentication.Login] since weaving was not enabled or did not occur.
+[EL Warning]: metadata: 2015-12-04 13:08:53.288--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [user] for the entity class [class shop.app.shared.authentication.UserData] since weaving was not enabled or did not occur.
+[EL Warning]: metadata: 2015-12-04 13:08:53.291--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [user] for the entity class [class shop.app.shared.authentication.PassRecovery] since weaving was not enabled or did not occur.
+[EL Info]: connection: 2015-12-04 13:08:53.507--ServerSession(1023441588)--Thread(Thread[Test worker,5,main])--file:/home/applifire/workspace/onlineshopping/build/resources/main_onlineshopping login successful
+inside Disk Health
+NOTIFYING OBSERVERS
+notification received to observer
+Queue manager defined with queue type 0 and size 100000
+Event Queue Consumer started
+came in healthmeter bean
+came in initHealth
+ Queue manager qType : 0
+ Queue manager qSize : 10000
+Queue manager defined with queue type 0 and size 10000
+Event Queue Consumer started
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+creating bean JpqlToSqlConfig
+In around applifire repository aspect
+Fri Dec 04 13:08:58 UTC 2015|DH-TP|***.***.***| appLogger : Starting all DataHandler Worker Threads.....
+[EL Fine]: sql: 2015-12-04 13:08:58.248--ClientSession(1842087282)--Connection(888946394)--Thread(Thread[Test worker,5,main])--SELECT query_id, active_status, app_creator_id, created_by, created_date, hidden_name, jpql_query, name, project_id, project_version_id, query_json, query_type, sql_query, updated_by, updated_date, version_id FROM art_query WHERE ((active_status = ?) AND (sql_query IS NULL))
+	bind =&gt; [true]
+[EL Config]: connection: 2015-12-04 13:08:58.254--ServerSession(1023441588)--Connection(888946394)--Thread(Thread[Test worker,5,main])--disconnect
+came in myClass bean
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:03.641--ClientSession(945701275)--Connection(1106030135)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppMenus_M (menuId, appId, appType, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [83689FA9-FDF5-4F63-B345-4D893BA507A4, Ec5qpVOXEEilvnMnn4CfQINjIkHhqJvIgwFELqgedsBAA1yls3, 1, 8, 652EKpZyhKQ4IsMc6R3qAcWHlW5bFN7RfmtjiESHoghR03lY6k, r4BMAVJsZ84IixDKVWvk8o2aBcu4ThpgMsiA5hNf03gqvpjfe4, true, true, Wi1LtlHEcFexdKj56JXw1zfFUlKlHjMqFQNizpvU3inu81Wy4Q, AIrvbRhLercHDQlyr8wr1RNcIj2noNnuhvLAibiKaCS6ofklqf, OPpQtJuwoF4MM6vTJksJczuMnWg0KweGrjFbBqWNssG9C8SIho, CAwswVw9L30lTryo56zmRsZFyGo5kPawVv11lOTwnj6NJQyR2g, SDw, 1, AAAAA, 2015-12-04 18:39:03.589, null, 2015-12-04 18:39:03.589, 1, null]
+[EL Config]: connection: 2015-12-04 13:09:03.713--ServerSession(1023441588)--Connection(1106030135)--Thread(Thread[Test worker,5,main])--disconnect
+Setting logged in user info for ADD
+Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:03.759--ClientSession(375184190)--Connection(188779289)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Roles_T (roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [E3DF0F08-B868-4A52-80D9-9C2549B95805, HZB6NpwntavuY85ulLxNClo2h2wdOwXbYXvlH0tHK5yfufUgrt, 5hWm5pieoyvOMtpiA91wNVYQ7AB53GIHeFDOADrJdhNb5rUFqn, xfRi413ELOp9f8o0ebrTTUbQCmZFFOi0xPoA13WAUvsmd56snS, T9rfQwEGrSCjeLT1NQsI8ZIv13uZug2lg9NgR35HtytJJxmlbd, 1, AAAAA, 2015-12-04 18:39:03.589, null, 2015-12-04 18:39:03.589, 1, null]
+[EL Fine]: sql: 2015-12-04 13:09:03.76--ClientSession(375184190)--Connection(188779289)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_RoleMenuBridge_TP (roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [8A1FC3C5-02E5-415A-B580-5F5F84E18139, true, true, true, 83689FA9-FDF5-4F63-B345-4D893BA507A4, 1, AAAAA, 2015-12-04 18:39:03.589, null, 2015-12-04 18:39:03.589, 1, null, E3DF0F08-B868-4A52-80D9-9C2549B95805]
+[EL Config]: connection: 2015-12-04 13:09:03.802--ServerSession(1023441588)--Connection(188779289)--Thread(Thread[Test worker,5,main])--disconnect
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:03.81--ClientSession(560241346)--Connection(1558164363)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE ((activeStatus = ?) AND (roleId = ?))
+	bind =&gt; [1, E3DF0F08-B868-4A52-80D9-9C2549B95805]
+[EL Fine]: sql: 2015-12-04 13:09:03.812--ClientSession(560241346)--Connection(1558164363)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind =&gt; [E3DF0F08-B868-4A52-80D9-9C2549B95805]
+[EL Config]: connection: 2015-12-04 13:09:03.815--ServerSession(1023441588)--Connection(1558164363)--Thread(Thread[Test worker,5,main])--disconnect
+Setting logged in user info for UPDATE
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:03.82--ClientSession(740776930)--Connection(773278192)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE (roleId = ?)
+	bind =&gt; [E3DF0F08-B868-4A52-80D9-9C2549B95805]
+[EL Fine]: sql: 2015-12-04 13:09:03.821--ClientSession(740776930)--Connection(773278192)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind =&gt; [E3DF0F08-B868-4A52-80D9-9C2549B95805]
+[EL Fine]: sql: 2015-12-04 13:09:03.824--ClientSession(740776930)--Connection(773278192)--Thread(Thread[Test worker,5,main])--UPDATE ast_Roles_T SET RoleDescription = ?, roleHelp = ?, RoleIcon = ?, RoleName = ?, updatedBy = ?, versionId = ? WHERE ((roleId = ?) AND (versionId = ?))
+	bind =&gt; [SXRNDqbKmWD6tDaX1Hh68aWllLwxSJvkwtBVQxQxd4jNzx0wIA, XQxFMWG6DV3BvX9vRNJH8t7aEq3jns6R9HRWdoeOKESp79hagE, 4vDQmIvOkSSZLYt6raSmQzO6teJC1PboRbYEbbGIsQMTvPQ2oy, pOKgyUv5LAQ4TWySF6eXNo8Ad47cb3gYgalxqOhCZzyrrubEkb, AAAAA, 2, E3DF0F08-B868-4A52-80D9-9C2549B95805, 1]
+[EL Fine]: sql: 2015-12-04 13:09:03.825--ClientSession(740776930)--Connection(773278192)--Thread(Thread[Test worker,5,main])--UPDATE ast_RoleMenuBridge_TP SET updatedBy = ?, versionId = ? WHERE ((roleMenuMapId = ?) AND (versionId = ?))
+	bind =&gt; [AAAAA, 2, 8A1FC3C5-02E5-415A-B580-5F5F84E18139, 1]
+[EL Config]: connection: 2015-12-04 13:09:03.88--ServerSession(1023441588)--Connection(773278192)--Thread(Thread[Test worker,5,main])--disconnect
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:03.887--ClientSession(1485536034)--Connection(725905549)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE ((activeStatus = ?) AND (roleId = ?))
+	bind =&gt; [1, E3DF0F08-B868-4A52-80D9-9C2549B95805]
+[EL Fine]: sql: 2015-12-04 13:09:03.889--ClientSession(1485536034)--Connection(725905549)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind =&gt; [E3DF0F08-B868-4A52-80D9-9C2549B95805]
+[EL Config]: connection: 2015-12-04 13:09:03.891--ServerSession(1023441588)--Connection(725905549)--Thread(Thread[Test worker,5,main])--disconnect
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:03.9--ClientSession(178730493)--Connection(6851968)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE (roleId = ?)
+	bind =&gt; [E3DF0F08-B868-4A52-80D9-9C2549B95805]
+[EL Fine]: sql: 2015-12-04 13:09:03.901--ClientSession(178730493)--Connection(6851968)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind =&gt; [E3DF0F08-B868-4A52-80D9-9C2549B95805]
+[EL Fine]: sql: 2015-12-04 13:09:03.905--ClientSession(178730493)--Connection(6851968)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_RoleMenuBridge_TP WHERE ((roleMenuMapId = ?) AND (versionId = ?))
+	bind =&gt; [8A1FC3C5-02E5-415A-B580-5F5F84E18139, 2]
+[EL Fine]: sql: 2015-12-04 13:09:03.906--ClientSession(178730493)--Connection(6851968)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Roles_T WHERE ((roleId = ?) AND (versionId = ?))
+	bind =&gt; [E3DF0F08-B868-4A52-80D9-9C2549B95805, 2]
+[EL Config]: connection: 2015-12-04 13:09:03.991--ServerSession(1023441588)--Connection(6851968)--Thread(Thread[Test worker,5,main])--disconnect
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:03.996--ClientSession(295620098)--Connection(2092918373)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE (menuId = ?)
+	bind =&gt; [83689FA9-FDF5-4F63-B345-4D893BA507A4]
+[EL Fine]: sql: 2015-12-04 13:09:03.999--ClientSession(295620098)--Connection(2092918373)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppMenus_M WHERE ((menuId = ?) AND (versionId = ?))
+	bind =&gt; [83689FA9-FDF5-4F63-B345-4D893BA507A4, 1]
+[EL Config]: connection: 2015-12-04 13:09:04.08--ServerSession(1023441588)--Connection(2092918373)--Thread(Thread[Test worker,5,main])--disconnect
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>log4j:WARN No appenders could be found for logger (org.springframework.test.context.junit4.SpringJUnit4ClassRunner).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 4, 2015 1:09:25 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="shop.app.server.service.OrderTransactionTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-12-04T13:09:09" hostname="858d33beece3" time="0.398">
+  <properties/>
+  <testcase name="test1Save" classname="shop.app.server.service.OrderTransactionTestCase" time="0.142"/>
+  <testcase name="test2Update" classname="shop.app.server.service.OrderTransactionTestCase" time="0.056"/>
+  <testcase name="test3FindById" classname="shop.app.server.service.OrderTransactionTestCase" time="0.005"/>
+  <testcase name="test3findByorderId" classname="shop.app.server.service.OrderTransactionTestCase" time="0.007"/>
+  <testcase name="test4Delete" classname="shop.app.server.service.OrderTransactionTestCase" time="0.186"/>
+  <system-out><![CDATA[In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.502--ClientSession(12797889)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_OrderMain_T (orderId, orderBy, orderDate, total, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [105F4F4A-38B0-4E7A-A213-3A7D9337B74D, iFLUnnuPQgzTy13BevWF9V1lNFWSSWVqyz3ZqcmHIUaeKDaa7g, 1970-01-02, 12.34, 1, AAAAA, 2015-12-04 18:39:09.499, null, 2015-12-04 18:39:09.499, 1, null]
+Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.583--ClientSession(545104872)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_OrderTransaction_T (mapId, orderId, statusMsg, transactionId, transactionStatus, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [0D296DF4-9232-4AC2-A2A4-4BE38DB64635, 105F4F4A-38B0-4E7A-A213-3A7D9337B74D, dFSRwEo4PfBFcU3ZormeLIgD6MdN42GU70cvj4ls3GEBXq4FvX, fAybH2imp4fsgXd3DZC6pK02Pwixo2ymNpH09ZVvrqTQ5KiGnR, YodXjh55LwIVcrEL9uNOmMnvr3BagcSv9i4f7Wcpz9NsSvJcwL, 1, AAAAA, 2015-12-04 18:39:09.55, null, 2015-12-04 18:39:09.55, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.635--ClientSession(488646347)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT mapId, orderId, statusMsg, transactionId, transactionStatus, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_OrderTransaction_T WHERE ((activeStatus = ?) AND (mapId = ?))
+	bind => [1, 0D296DF4-9232-4AC2-A2A4-4BE38DB64635]
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.638--ClientSession(1027401133)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT mapId, orderId, statusMsg, transactionId, transactionStatus, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_OrderTransaction_T WHERE (mapId = ?)
+	bind => [0D296DF4-9232-4AC2-A2A4-4BE38DB64635]
+[EL Fine]: sql: 2015-12-04 13:09:09.64--ClientSession(1027401133)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--UPDATE ast_OrderTransaction_T SET statusMsg = ?, transactionId = ?, transactionStatus = ?, updatedBy = ?, versionId = ? WHERE ((mapId = ?) AND (versionId = ?))
+	bind => [kBFGPI3arw6dnvDHcmAlmMl4sDpxYvTsZuoChRUPwobWMdxrGl, RD5AXz7JpQ9lchxzGN1DWKe2l114L53JV47edeVHI9muLWS9RZ, 1cntPyhlSAnYCMVx11ZtRvxqZm7nPTLNHYtSH9ihDDAMILPpZN, AAAAA, 2, 0D296DF4-9232-4AC2-A2A4-4BE38DB64635, 1]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.688--ClientSession(1200067266)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT mapId, orderId, statusMsg, transactionId, transactionStatus, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_OrderTransaction_T WHERE ((activeStatus = ?) AND (mapId = ?))
+	bind => [1, 0D296DF4-9232-4AC2-A2A4-4BE38DB64635]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.695--ClientSession(890434902)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT mapId, orderId, statusMsg, transactionId, transactionStatus, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_OrderTransaction_T WHERE ((activeStatus = ?) AND (orderId = ?))
+	bind => [1, 105F4F4A-38B0-4E7A-A213-3A7D9337B74D]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.701--ClientSession(1824187073)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT mapId, orderId, statusMsg, transactionId, transactionStatus, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_OrderTransaction_T WHERE (mapId = ?)
+	bind => [0D296DF4-9232-4AC2-A2A4-4BE38DB64635]
+[EL Fine]: sql: 2015-12-04 13:09:09.703--ClientSession(1824187073)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_OrderTransaction_T WHERE ((mapId = ?) AND (versionId = ?))
+	bind => [0D296DF4-9232-4AC2-A2A4-4BE38DB64635, 2]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.797--ClientSession(237345007)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT orderId, orderBy, orderDate, total, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_OrderMain_T WHERE (orderId = ?)
+	bind => [105F4F4A-38B0-4E7A-A213-3A7D9337B74D]
+[EL Fine]: sql: 2015-12-04 13:09:09.798--ClientSession(237345007)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT orderDetId, itemId, quantity, subTotal, unitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, orderId FROM ast_OrderDetail_TP WHERE (orderId = ?)
+	bind => [105F4F4A-38B0-4E7A-A213-3A7D9337B74D]
+[EL Fine]: sql: 2015-12-04 13:09:09.801--ClientSession(237345007)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_OrderMain_T WHERE ((orderId = ?) AND (versionId = ?))
+	bind => [105F4F4A-38B0-4E7A-A213-3A7D9337B74D, 1]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

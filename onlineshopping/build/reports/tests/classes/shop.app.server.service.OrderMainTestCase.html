@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class shop.app.server.service.OrderMainTestCase</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class shop.app.server.service.OrderMainTestCase</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/shop.app.server.service.html">shop.app.server.service</a> &gt; OrderMainTestCase</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.520s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1Save</td>
+<td>0.253s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Update</td>
+<td>0.067s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3FindById</td>
+<td>0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4Delete</td>
+<td>0.193s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:06.128--ClientSession(2109039704)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Item_M (itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [9562E789-0F1B-420B-B17F-48FC83CB6B98, 1P562aud0iO71CgMCzTV6C8LQepgYGZxLsa50VTjrRjiDUwhbm, 6Pg4fuT5muJrUO8q32x3ypL294aIbhO5hdsd0qqfEb1GLzFon0, mcDrRLPE6xnRJRDA1wZ4uvHVFfwVaAOV38bURjgQ0QscSR58h1, FeG, 12.34, 2147483647, A0HmawUXVPeWf2Vuo9J4EiIOxyoKo0tmq7dxujxEWvxlBPRpMr, 1, AAAAA, 2015-12-04 18:39:06.124, null, 2015-12-04 18:39:06.124, 1, null]
+Setting logged in user info for ADD
+Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:06.23--ClientSession(257712927)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_OrderMain_T (orderId, orderBy, orderDate, total, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [C799F908-D2AE-4DD5-9F7C-2A8F694DCC58, FQ4IZZAJEDUMjzJnLewQA66l7kl5JkZQjiI8VVxdegZUNbRicW, 1970-01-02, 12.34, 1, AAAAA, 2015-12-04 18:39:06.124, null, 2015-12-04 18:39:06.124, 1, null]
+[EL Fine]: sql: 2015-12-04 13:09:06.232--ClientSession(257712927)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_OrderDetail_TP (orderDetId, itemId, quantity, subTotal, unitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, orderId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [7A4634C3-7CA2-48A1-BF52-0052ADBA9E95, 9562E789-0F1B-420B-B17F-48FC83CB6B98, 80275044, 12.34, 12.34, 1, AAAAA, 2015-12-04 18:39:06.124, null, 2015-12-04 18:39:06.124, 1, null, C799F908-D2AE-4DD5-9F7C-2A8F694DCC58]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:06.366--ClientSession(1213901825)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT orderId, orderBy, orderDate, total, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_OrderMain_T WHERE ((activeStatus = ?) AND (orderId = ?))
+	bind =&gt; [1, C799F908-D2AE-4DD5-9F7C-2A8F694DCC58]
+[EL Fine]: sql: 2015-12-04 13:09:06.367--ClientSession(1213901825)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT orderDetId, itemId, quantity, subTotal, unitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, orderId FROM ast_OrderDetail_TP WHERE (orderId = ?)
+	bind =&gt; [C799F908-D2AE-4DD5-9F7C-2A8F694DCC58]
+Setting logged in user info for UPDATE
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:06.372--ClientSession(1582020963)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT orderId, orderBy, orderDate, total, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_OrderMain_T WHERE (orderId = ?)
+	bind =&gt; [C799F908-D2AE-4DD5-9F7C-2A8F694DCC58]
+[EL Fine]: sql: 2015-12-04 13:09:06.373--ClientSession(1582020963)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT orderDetId, itemId, quantity, subTotal, unitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, orderId FROM ast_OrderDetail_TP WHERE (orderId = ?)
+	bind =&gt; [C799F908-D2AE-4DD5-9F7C-2A8F694DCC58]
+[EL Fine]: sql: 2015-12-04 13:09:06.375--ClientSession(1582020963)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--UPDATE ast_OrderMain_T SET orderBy = ?, orderDate = ?, updatedBy = ?, versionId = ? WHERE ((orderId = ?) AND (versionId = ?))
+	bind =&gt; [DMBJkuE6xQ8VlCWq0VZkFYlJqdBS9kyXBfbchVrgEtnWWnfGjM, 1970-01-02, AAAAA, 2, C799F908-D2AE-4DD5-9F7C-2A8F694DCC58, 1]
+[EL Fine]: sql: 2015-12-04 13:09:06.376--ClientSession(1582020963)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--UPDATE ast_OrderDetail_TP SET updatedBy = ?, versionId = ? WHERE ((orderDetId = ?) AND (versionId = ?))
+	bind =&gt; [AAAAA, 2, 7A4634C3-7CA2-48A1-BF52-0052ADBA9E95, 1]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:06.432--ClientSession(1672510417)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT orderId, orderBy, orderDate, total, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_OrderMain_T WHERE ((activeStatus = ?) AND (orderId = ?))
+	bind =&gt; [1, C799F908-D2AE-4DD5-9F7C-2A8F694DCC58]
+[EL Fine]: sql: 2015-12-04 13:09:06.433--ClientSession(1672510417)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT orderDetId, itemId, quantity, subTotal, unitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, orderId FROM ast_OrderDetail_TP WHERE (orderId = ?)
+	bind =&gt; [C799F908-D2AE-4DD5-9F7C-2A8F694DCC58]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:06.439--ClientSession(498383624)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT orderId, orderBy, orderDate, total, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_OrderMain_T WHERE (orderId = ?)
+	bind =&gt; [C799F908-D2AE-4DD5-9F7C-2A8F694DCC58]
+[EL Fine]: sql: 2015-12-04 13:09:06.44--ClientSession(498383624)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT orderDetId, itemId, quantity, subTotal, unitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, orderId FROM ast_OrderDetail_TP WHERE (orderId = ?)
+	bind =&gt; [C799F908-D2AE-4DD5-9F7C-2A8F694DCC58]
+[EL Fine]: sql: 2015-12-04 13:09:06.441--ClientSession(498383624)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_OrderDetail_TP WHERE ((orderDetId = ?) AND (versionId = ?))
+	bind =&gt; [7A4634C3-7CA2-48A1-BF52-0052ADBA9E95, 2]
+[EL Fine]: sql: 2015-12-04 13:09:06.442--ClientSession(498383624)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_OrderMain_T WHERE ((orderId = ?) AND (versionId = ?))
+	bind =&gt; [C799F908-D2AE-4DD5-9F7C-2A8F694DCC58, 2]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:06.598--ClientSession(309901104)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Item_M WHERE (itemId = ?)
+	bind =&gt; [9562E789-0F1B-420B-B17F-48FC83CB6B98]
+[EL Fine]: sql: 2015-12-04 13:09:06.6--ClientSession(309901104)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Item_M WHERE ((itemId = ?) AND (versionId = ?))
+	bind =&gt; [9562E789-0F1B-420B-B17F-48FC83CB6B98, 1]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 4, 2015 1:09:25 PM</p>
+</div>
+</div>
+</body>
+</html>

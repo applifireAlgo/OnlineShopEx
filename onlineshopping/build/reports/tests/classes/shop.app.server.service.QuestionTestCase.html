@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class shop.app.server.service.QuestionTestCase</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class shop.app.server.service.QuestionTestCase</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/shop.app.server.service.html">shop.app.server.service</a> &gt; QuestionTestCase</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.854s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1Save</td>
+<td>0.171s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Update</td>
+<td>0.522s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3FindById</td>
+<td>0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4Delete</td>
+<td>0.144s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:15.537--ClientSession(246502875)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Question_M (questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [F131A77C-3B9F-48C5-BCEF-A310A9CDFC9D, 7, 0DSmrERbStMwiZaWVqbrmRweriePhFzH3786MewZnwByOjXpQH, i5A, 0N3rouzS7bRiN2hZxBBIBUFg93Kxat2UJ4aAacNUya37tx9BcU, 1, AAAAA, 2015-12-04 18:39:15.476, null, 2015-12-04 18:39:15.476, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:15.617--ClientSession(496235180)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE ((activeStatus = ?) AND (questionId = ?))
+	bind =&gt; [1, F131A77C-3B9F-48C5-BCEF-A310A9CDFC9D]
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:15.621--ClientSession(1687297650)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE (questionId = ?)
+	bind =&gt; [F131A77C-3B9F-48C5-BCEF-A310A9CDFC9D]
+[EL Fine]: sql: 2015-12-04 13:09:15.623--ClientSession(1687297650)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--UPDATE ast_Question_M SET levelid = ?, question = ?, questionDetails = ?, questionIcon = ?, updatedBy = ?, versionId = ? WHERE ((questionId = ?) AND (versionId = ?))
+	bind =&gt; [10, qBXJmUudZjZwSHjyoIAq6aexerMmZIFHw8xRrZuqmx0vwCgAgq, SXP, 5f3gP6NqFxoFPkOxhXyPTyLLEKZIvHgKBZ7ZzDACauc8sbmlJY, AAAAA, 2, F131A77C-3B9F-48C5-BCEF-A310A9CDFC9D, 1]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:16.147--ClientSession(613772550)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE ((activeStatus = ?) AND (questionId = ?))
+	bind =&gt; [1, F131A77C-3B9F-48C5-BCEF-A310A9CDFC9D]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:16.159--ClientSession(939141536)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE (questionId = ?)
+	bind =&gt; [F131A77C-3B9F-48C5-BCEF-A310A9CDFC9D]
+[EL Fine]: sql: 2015-12-04 13:09:16.165--ClientSession(939141536)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Question_M WHERE ((questionId = ?) AND (versionId = ?))
+	bind =&gt; [F131A77C-3B9F-48C5-BCEF-A310A9CDFC9D, 2]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 4, 2015 1:09:25 PM</p>
+</div>
+</div>
+</body>
+</html>

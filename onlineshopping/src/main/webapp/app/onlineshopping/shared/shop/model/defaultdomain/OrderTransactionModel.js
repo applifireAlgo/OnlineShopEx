@@ -1,0 +1,39 @@
+Ext.define('Onlineshopping.onlineshopping.shared.shop.model.defaultdomain.OrderTransactionModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "orderid",
+          "reference": "OrderMain",
+          "defaultValue": ""
+     }, {
+          "name": "transactionId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "transactionStatus",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "statusMsg",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "primaryKey",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "mapId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

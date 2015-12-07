@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="shop.app.server.service.ItemTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-12-04T13:09:04" hostname="858d33beece3" time="0.281">
+  <properties/>
+  <testcase name="test1Save" classname="shop.app.server.service.ItemTestCase" time="0.115"/>
+  <testcase name="test2Update" classname="shop.app.server.service.ItemTestCase" time="0.055"/>
+  <testcase name="test3FindById" classname="shop.app.server.service.ItemTestCase" time="0.008"/>
+  <testcase name="test4Delete" classname="shop.app.server.service.ItemTestCase" time="0.102"/>
+  <system-out><![CDATA[Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:04.777--ClientSession(368378595)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Item_M (itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [B1827B93-C875-4255-9263-4F08ABC3A713, 4mO8s6yK5Cy3xow8q3OPsFkX8o4V0ESBHp2UOugSNYfSq5Ynls, 5KlpXTFdhwZLJu22fZt3UuC50x3ZvQl8S5i89yrSrpnbTzqg0U, SBaGJNXctWYo9RLKOpSJthjhg4cEfsEvVNy3KipCfIs1EKLo08, iWH, 12.34, 2147483647, pIkjlYmWah6V28tj2Re09GpGC6r3zqNbxjro2745KBe8a58UWA, 1, AAAAA, 2015-12-04 18:39:04.73, null, 2015-12-04 18:39:04.73, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:04.832--ClientSession(1559285454)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Item_M WHERE ((activeStatus = ?) AND (itemId = ?))
+	bind => [1, B1827B93-C875-4255-9263-4F08ABC3A713]
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:04.837--ClientSession(474752433)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Item_M WHERE (itemId = ?)
+	bind => [B1827B93-C875-4255-9263-4F08ABC3A713]
+[EL Fine]: sql: 2015-12-04 13:09:04.839--ClientSession(474752433)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--UPDATE ast_Item_M SET brand = ?, category = ?, item = ?, itemIcon = ?, product = ?, updatedBy = ?, versionId = ? WHERE ((itemId = ?) AND (versionId = ?))
+	bind => [0zc5BEQNlGwcAt88RUK8Id47ZbBkBoGU1NVM5w9kSQRpkNt98a, 0euChG5bVLqiVJMbAu5WFmNPWfBjgqPX9v758wOFW6BAi9M18F, 0i1alCROzvgOlWyliXzMXR1NQgbGPeUaySscdxj5pn6mBGFt2c, K53, lYTQHjciEQbBy1HjJW5bH5rrKfZwYNPhEtTnU7Qy4LqZQxHoSs, AAAAA, 2, B1827B93-C875-4255-9263-4F08ABC3A713, 1]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:04.886--ClientSession(1909329438)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Item_M WHERE ((activeStatus = ?) AND (itemId = ?))
+	bind => [1, B1827B93-C875-4255-9263-4F08ABC3A713]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:04.897--ClientSession(781408840)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Item_M WHERE (itemId = ?)
+	bind => [B1827B93-C875-4255-9263-4F08ABC3A713]
+[EL Fine]: sql: 2015-12-04 13:09:04.9--ClientSession(781408840)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Item_M WHERE ((itemId = ?) AND (versionId = ?))
+	bind => [B1827B93-C875-4255-9263-4F08ABC3A713, 2]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

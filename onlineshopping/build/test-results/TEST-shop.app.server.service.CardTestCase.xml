@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="shop.app.server.service.CardTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-12-04T13:09:09" hostname="858d33beece3" time="0.254">
+  <properties/>
+  <testcase name="test1Save" classname="shop.app.server.service.CardTestCase" time="0.098"/>
+  <testcase name="test2Update" classname="shop.app.server.service.CardTestCase" time="0.056"/>
+  <testcase name="test3FindById" classname="shop.app.server.service.CardTestCase" time="0.007"/>
+  <testcase name="test4Delete" classname="shop.app.server.service.CardTestCase" time="0.093"/>
+  <system-out><![CDATA[Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.94--ClientSession(2038450943)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Card_T (cardId, amt, cardNo, cvv, expDate, nameOnCard, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [2C0E6FBE-1EB1-4798-8792-F6DC6F3A9402, 12.34, cYlip1DHhXbQlBe9, VqK, oZpO9Wq0UEtFdl6F8W55iBWfsDwez8azpuA7IRtjWu5rvyt5y6, dW0m3YfL6kljkPpTMIS03073smyXCHJcb1zBPsf3owPNhXsGf5, 1, AAAAA, 2015-12-04 18:39:09.897, null, 2015-12-04 18:39:09.897, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.989--ClientSession(1808770002)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT cardId, amt, cardNo, cvv, expDate, nameOnCard, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Card_T WHERE ((activeStatus = ?) AND (cardId = ?))
+	bind => [1, 2C0E6FBE-1EB1-4798-8792-F6DC6F3A9402]
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:09.992--ClientSession(1628313113)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT cardId, amt, cardNo, cvv, expDate, nameOnCard, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Card_T WHERE (cardId = ?)
+	bind => [2C0E6FBE-1EB1-4798-8792-F6DC6F3A9402]
+[EL Fine]: sql: 2015-12-04 13:09:09.994--ClientSession(1628313113)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--UPDATE ast_Card_T SET cardNo = ?, cvv = ?, expDate = ?, nameOnCard = ?, updatedBy = ?, versionId = ? WHERE ((cardId = ?) AND (versionId = ?))
+	bind => [HwqxCxmFl1c00FBs, kcb, 74ZyvIkd9cX3a0STmLClJcRKLh8HL6aoNEjJI3FhF8XMyQjOWA, ptVnEpS4oVSr2vgQ17WWDb31S2tq5ebCiMR36qp26zZpznZGm6, AAAAA, 2, 2C0E6FBE-1EB1-4798-8792-F6DC6F3A9402, 1]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:10.045--ClientSession(1833379279)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT cardId, amt, cardNo, cvv, expDate, nameOnCard, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Card_T WHERE ((activeStatus = ?) AND (cardId = ?))
+	bind => [1, 2C0E6FBE-1EB1-4798-8792-F6DC6F3A9402]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:10.05--ClientSession(155360941)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT cardId, amt, cardNo, cvv, expDate, nameOnCard, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Card_T WHERE (cardId = ?)
+	bind => [2C0E6FBE-1EB1-4798-8792-F6DC6F3A9402]
+[EL Fine]: sql: 2015-12-04 13:09:10.052--ClientSession(155360941)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Card_T WHERE ((cardId = ?) AND (versionId = ?))
+	bind => [2C0E6FBE-1EB1-4798-8792-F6DC6F3A9402, 2]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

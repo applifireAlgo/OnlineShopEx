@@ -1,0 +1,42 @@
+Ext.define('Onlineshopping.onlineshopping.shared.shop.model.retail.OrderDetailModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "itemid",
+          "reference": "Item",
+          "defaultValue": ""
+     }, {
+          "name": "unitPrice",
+          "type": "number",
+          "defaultValue": ""
+     }, {
+          "name": "subTotal",
+          "type": "number",
+          "defaultValue": ""
+     }, {
+          "name": "quantity",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "primaryKey",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "orderDetId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "OrderMain",
+          "reference": "OrderMainModel"
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

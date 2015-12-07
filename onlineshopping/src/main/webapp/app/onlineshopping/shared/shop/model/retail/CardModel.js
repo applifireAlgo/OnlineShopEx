@@ -1,0 +1,43 @@
+Ext.define('Onlineshopping.onlineshopping.shared.shop.model.retail.CardModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "cardId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "cardNo",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "expDate",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "nameOnCard",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "amt",
+          "type": "number",
+          "defaultValue": ""
+     }, {
+          "name": "cvv",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

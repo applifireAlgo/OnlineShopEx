@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class shop.app.server.service.ItemTestCase</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class shop.app.server.service.ItemTestCase</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/shop.app.server.service.html">shop.app.server.service</a> &gt; ItemTestCase</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.280s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1Save</td>
+<td>0.115s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Update</td>
+<td>0.055s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3FindById</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4Delete</td>
+<td>0.102s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:04.777--ClientSession(368378595)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Item_M (itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [B1827B93-C875-4255-9263-4F08ABC3A713, 4mO8s6yK5Cy3xow8q3OPsFkX8o4V0ESBHp2UOugSNYfSq5Ynls, 5KlpXTFdhwZLJu22fZt3UuC50x3ZvQl8S5i89yrSrpnbTzqg0U, SBaGJNXctWYo9RLKOpSJthjhg4cEfsEvVNy3KipCfIs1EKLo08, iWH, 12.34, 2147483647, pIkjlYmWah6V28tj2Re09GpGC6r3zqNbxjro2745KBe8a58UWA, 1, AAAAA, 2015-12-04 18:39:04.73, null, 2015-12-04 18:39:04.73, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:04.832--ClientSession(1559285454)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Item_M WHERE ((activeStatus = ?) AND (itemId = ?))
+	bind =&gt; [1, B1827B93-C875-4255-9263-4F08ABC3A713]
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:04.837--ClientSession(474752433)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Item_M WHERE (itemId = ?)
+	bind =&gt; [B1827B93-C875-4255-9263-4F08ABC3A713]
+[EL Fine]: sql: 2015-12-04 13:09:04.839--ClientSession(474752433)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--UPDATE ast_Item_M SET brand = ?, category = ?, item = ?, itemIcon = ?, product = ?, updatedBy = ?, versionId = ? WHERE ((itemId = ?) AND (versionId = ?))
+	bind =&gt; [0zc5BEQNlGwcAt88RUK8Id47ZbBkBoGU1NVM5w9kSQRpkNt98a, 0euChG5bVLqiVJMbAu5WFmNPWfBjgqPX9v758wOFW6BAi9M18F, 0i1alCROzvgOlWyliXzMXR1NQgbGPeUaySscdxj5pn6mBGFt2c, K53, lYTQHjciEQbBy1HjJW5bH5rrKfZwYNPhEtTnU7Qy4LqZQxHoSs, AAAAA, 2, B1827B93-C875-4255-9263-4F08ABC3A713, 1]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:04.886--ClientSession(1909329438)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Item_M WHERE ((activeStatus = ?) AND (itemId = ?))
+	bind =&gt; [1, B1827B93-C875-4255-9263-4F08ABC3A713]
+In around repository aspect
+[EL Fine]: sql: 2015-12-04 13:09:04.897--ClientSession(781408840)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--SELECT itemId, brand, category, item, itemIcon, itemPrice, itemStock, product, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Item_M WHERE (itemId = ?)
+	bind =&gt; [B1827B93-C875-4255-9263-4F08ABC3A713]
+[EL Fine]: sql: 2015-12-04 13:09:04.9--ClientSession(781408840)--Connection(1006291588)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Item_M WHERE ((itemId = ?) AND (versionId = ?))
+	bind =&gt; [B1827B93-C875-4255-9263-4F08ABC3A713, 2]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 4, 2015 1:09:25 PM</p>
+</div>
+</div>
+</body>
+</html>
